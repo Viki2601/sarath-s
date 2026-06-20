@@ -1,0 +1,550 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SARATH. — Design beyond boundaries.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&family=Instrument+Serif:ital@0;1&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="preloader" id="preloader">
+    <div class="preloader-bg-glow"></div>
+    <div class="preloader-curtain"></div>
+    <div class="preloader-inner">
+      <div class="preloader-logo" id="preloader-logo">
+        <span class="letter">S</span><span class="letter">A</span><span class="letter">R</span><span
+          class="letter">A</span><span class="letter">T</span><span class="letter">H</span><span
+          class="letter dot">.</span>
+      </div>
+      <div class="preloader-bar-track">
+        <div class="preloader-bar-fill" id="preloader-bar"></div>
+      </div>
+      <div class="preloader-percent" id="preloader-percent">0%</div>
+    </div>
+  </div>
+  
+  <div class="portfolio-container">
+
+    <!-- HEADER -->
+    <header class="header">
+      <div class="logo">SARATH.</div>
+      <a href="#contact" class="cta-talk">
+        <span>Let's Talk</span>
+        <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <line x1="7" y1="17" x2="17" y2="7"></line>
+          <polyline points="7 7 17 7 17 17"></polyline>
+        </svg>
+      </a>
+    </header>
+
+    <main class="main-content">
+      <section class="hero-section" id="about">
+        <div class="hero-card">
+          <!-- Decorative Star Icon -->
+          <div class="star-decorative">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+              <line x1="12" y1="2" x2="12" y2="22"></line>
+              <line x1="2" y1="12" x2="22" y2="12"></line>
+              <line x1="5" y1="5" x2="19" y2="19"></line>
+              <line x1="5" y1="19" x2="19" y2="5"></line>
+            </svg>
+          </div>
+
+          <h1 class="hero-title">
+            Design<br>beyond<br><span class="highlight-serif">boundaries.</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            Multi-disciplinary designer crafting meaningful experiences across digital and physical mediums.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#work" class="btn-primary">
+              <span>View Selected Work</span>
+              <svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="7" y1="17" x2="17" y2="7"></line>
+                <polyline points="7 7 17 7 17 17"></polyline>
+              </svg>
+            </a>
+
+            <!-- Rotating Circular Text Badge -->
+            <div class="rotating-badge-container">
+              <svg class="rotating-badge" viewBox="0 0 100 100">
+                <defs>
+                  <!-- Circle path: radius 38, centered at 50,50 -->
+                  <path id="textPathCurve" d="M 50, 50 m -38, 0 a 38,38 0 1,1 76,0 a 38,38 0 1,1 -76,0" fill="none" />
+                </defs>
+                <text class="badge-text">
+                  <textPath href="#textPathCurve" startOffset="0%">
+                    DESIGNING IMPACT • REALIZING CONNECTIONS •
+                  </textPath>
+                </text>
+                <!-- Arrow in the middle -->
+                <g transform="translate(50,50) scale(0.8)">
+                  <circle cx="0" cy="0" r="15" fill="none" stroke="currentColor" stroke-width="1.5" />
+                  <path d="M -5,5 L 5,-5 M -1,-5 L 5,-5 L 5,1" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" />
+                </g>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <!-- Portrait & About Stack (Right) -->
+        <div class="hero-right-stack">
+          <!-- Portrait Card -->
+          <div class="portrait-card">
+            <img src="/assets/hero_portrait.png" alt="Sarath portrait" class="portrait-img" />
+            <div class="status-pill">
+              <span class="status-dot"></span>
+              <span>Available for work</span>
+            </div>
+          </div>
+
+          <!-- About Me Card -->
+          <div class="about-card">
+            <div class="about-content">
+              <h2 class="card-section-title">About Me</h2>
+              <p class="about-text">
+                I'm Sarath, a multi-disciplinary designer with 8+ years of experience helping brands stand out and
+                connect through design.
+              </p>
+              <a href="#about" class="about-link">
+                <span>More about me</span>
+                <svg class="arrow-icon-small" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </a>
+            </div>
+            <div class="about-graphic">
+              <img src="/assets/neon_wiggle_shape.png" alt="3D neon shape" class="wiggle-img" />
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- SERVICES SECTION (Row 2) -->
+      <section class="services-grid" id="services">
+
+        <!-- UI/UX Card -->
+        <div class="service-card bg-indigo text-white">
+          <div class="card-icon-wrapper">
+            <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+              <line x1="2" y1="10" x2="22" y2="10"></line>
+              <circle cx="6" cy="6" r="1"></circle>
+              <circle cx="10" cy="6" r="1"></circle>
+              <circle cx="14" cy="6" r="1"></circle>
+            </svg>
+          </div>
+          <div class="card-details">
+            <h3 class="service-title">UI/UX Design</h3>
+            <p class="service-description">User-centered interfaces that are functional, accessible and delightful.</p>
+          </div>
+          <a href="#" class="circle-arrow-btn">
+            <svg class="arrow-icon-btn" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="7" y1="17" x2="17" y2="7"></line>
+              <polyline points="7 7 17 7 17 17"></polyline>
+            </svg>
+          </a>
+        </div>
+
+        <!-- Brand Identity Card -->
+        <div class="service-card bg-lime text-black">
+          <div class="card-icon-wrapper">
+            <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z">
+              </path>
+              <path d="M12 8V16"></path>
+              <path d="M8 12H16"></path>
+              <circle cx="12" cy="12" r="3"></circle>
+            </svg>
+          </div>
+          <div class="card-details">
+            <h3 class="service-title">Brand Identity</h3>
+            <p class="service-description">Memorable brands built with strategy, story and style.</p>
+          </div>
+          <a href="#" class="circle-arrow-btn">
+            <svg class="arrow-icon-btn" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="7" y1="17" x2="17" y2="7"></line>
+              <polyline points="7 7 17 7 17 17"></polyline>
+            </svg>
+          </a>
+        </div>
+
+        <!-- Illustration Card -->
+        <div class="service-card bg-orange text-black">
+          <div class="card-icon-wrapper">
+            <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
+              <path d="M18 13l-1.5-1.5"></path>
+              <path d="M14 9L5 18v3h3l9-9-3-3z"></path>
+              <path d="M19 8l-2-2"></path>
+              <path d="M14 5l-2-2L3 12v3h3l9-9z"></path>
+            </svg>
+          </div>
+          <div class="card-details">
+            <h3 class="service-title">Illustration</h3>
+            <p class="service-description">Bold visuals and custom illustrations that bring ideas to life.</p>
+          </div>
+          <a href="#" class="circle-arrow-btn">
+            <svg class="arrow-icon-btn" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="7" y1="17" x2="17" y2="7"></line>
+              <polyline points="7 7 17 7 17 17"></polyline>
+            </svg>
+          </a>
+        </div>
+
+        <!-- Print Design Card -->
+        <div class="service-card bg-pink text-black">
+          <div class="card-icon-wrapper">
+            <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <polyline points="6 9 6 2 18 2 18 9"></polyline>
+              <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+              <rect x="6" y="14" width="12" height="8"></rect>
+            </svg>
+          </div>
+          <div class="card-details">
+            <h3 class="service-title">Print Design</h3>
+            <p class="service-description">From posters to brochures, designs that leave a lasting impression.</p>
+          </div>
+          <a href="#" class="circle-arrow-btn">
+            <svg class="arrow-icon-btn" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="7" y1="17" x2="17" y2="7"></line>
+              <polyline points="7 7 17 7 17 17"></polyline>
+            </svg>
+          </a>
+        </div>
+
+      </section>
+
+      <!-- MORE SERVICES & TOOLS SECTION (Row 3) -->
+      <section class="more-services-grid">
+
+        <!-- Motion Graphics Card -->
+        <div class="service-card bg-dark text-white">
+          <div class="card-icon-wrapper">
+            <svg class="card-icon text-lime" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+            </svg>
+          </div>
+          <div class="card-details">
+            <h3 class="service-title">Motion Graphics</h3>
+            <p class="service-description">Engaging animations that move stories and brands forward.</p>
+          </div>
+          <a href="#" class="circle-arrow-btn">
+            <svg class="arrow-icon-btn" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="7" y1="17" x2="17" y2="7"></line>
+              <polyline points="7 7 17 7 17 17"></polyline>
+            </svg>
+          </a>
+        </div>
+
+        <!-- 3D Design Card -->
+        <div class="service-card bg-blue text-white">
+          <div class="card-icon-wrapper">
+            <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+              </path>
+              <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+              <line x1="12" y1="22.08" x2="12" y2="12"></line>
+            </svg>
+          </div>
+          <div class="card-details">
+            <h3 class="service-title">3D Design</h3>
+            <p class="service-description">Striking 3D visuals that add depth and dimension.</p>
+          </div>
+          <a href="#" class="circle-arrow-btn">
+            <svg class="arrow-icon-btn" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="7" y1="17" x2="17" y2="7"></line>
+              <polyline points="7 7 17 7 17 17"></polyline>
+            </svg>
+          </a>
+        </div>
+
+        <!-- Video Editing Card -->
+        <div class="service-card bg-dark text-white">
+          <div class="card-icon-wrapper">
+            <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+              stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"></rect>
+              <line x1="7" y1="2" x2="7" y2="22"></line>
+              <line x1="17" y1="2" x2="17" y2="22"></line>
+              <line x1="2" y1="12" x2="22" y2="12"></line>
+              <line x1="2" y1="7" x2="7" y2="7"></line>
+              <line x1="2" y1="17" x2="7" y2="17"></line>
+              <line x1="17" y1="17" x2="22" y2="17"></line>
+              <line x1="17" y1="7" x2="22" y2="7"></line>
+            </svg>
+          </div>
+          <div class="card-details">
+            <h3 class="service-title">Video Editing</h3>
+            <p class="service-description">Clean, cinematic edits that communicate with impact.</p>
+          </div>
+          <a href="#" class="circle-arrow-btn">
+            <svg class="arrow-icon-btn" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="7" y1="17" x2="17" y2="7"></line>
+              <polyline points="7 7 17 7 17 17"></polyline>
+            </svg>
+          </a>
+        </div>
+
+        <!-- Tools Card -->
+        <div class="tools-card bg-dark text-white" id="playground">
+          <h3 class="tools-card-title">Tools I Use</h3>
+
+          <ul class="tools-list">
+            <li class="tool-item">
+              <div class="tool-brand">
+                <!-- Figma Stylized Icon -->
+                <svg class="tool-icon" viewBox="0 0 36 36" fill="none">
+                  <path
+                    d="M12 9C12 6.51472 14.0147 4.5 16.5 4.5C18.9853 4.5 21 6.51472 21 9V13.5H16.5C14.0147 13.5 12 11.4853 12 9Z"
+                    fill="#F24E1E" />
+                  <path d="M12 18C12 15.5147 14.0147 13.5 16.5 13.5H21V22.5H16.5C14.0147 22.5 12 20.4853 12 18Z"
+                    fill="#A259FF" />
+                  <path
+                    d="M12 27C12 24.5147 14.0147 22.5 16.5 22.5C18.9853 22.5 21 24.5147 21 27C21 29.4853 18.9853 31.5 16.5 31.5C14.0147 31.5 12 29.4853 12 27Z"
+                    fill="#0ACF83" />
+                  <path
+                    d="M21 13.5C21 11.0147 23.0147 9 25.5 9C27.9853 9 30 11.0147 30 13.5C30 15.9853 27.9853 18 25.5 18H21V13.5Z"
+                    fill="#FF7262" />
+                  <path d="M25.5 22.5C27.9853 22.5 30 20.4853 30 18C30 15.5147 27.9853 13.5 25.5 13.5V22.5Z"
+                    fill="#1ABC9C" />
+                </svg>
+                <span class="tool-name">Figma</span>
+              </div>
+            </li>
+            <li class="tool-item">
+              <div class="tool-brand">
+                <!-- Adobe Creative Suite Stylized Icon -->
+                <svg class="tool-icon" viewBox="0 0 36 36" fill="none">
+                  <rect width="36" height="36" rx="6" fill="#FF0000" />
+                  <path d="M18 8L27 28H22.5L20 22H16L13.5 28H9L18 8ZM18 12.5L16.7 17.5H19.3L18 12.5Z" fill="white" />
+                </svg>
+                <span class="tool-name">Adobe Creative Suite</span>
+              </div>
+            </li>
+            <li class="tool-item">
+              <div class="tool-brand">
+                <!-- Cinema 4D Stylized Icon -->
+                <svg class="tool-icon" viewBox="0 0 36 36" fill="none">
+                  <rect width="36" height="36" rx="6" fill="#003554" />
+                  <path d="M18 8L28 14V22L18 28L8 22V14L18 8ZM18 11.5L11 15.7V20.3L18 24.5L25 20.3V15.7L18 11.5Z"
+                    fill="#00A8E8" />
+                  <polygon points="18 13.5 14 16 14 20 18 22.5 22 20 22 16" fill="#00A8E8" />
+                </svg>
+                <span class="tool-name">Cinema 4D</span>
+              </div>
+            </li>
+            <li class="tool-item">
+              <div class="tool-brand">
+                <!-- Blender Stylized Icon -->
+                <svg class="tool-icon" viewBox="0 0 36 36" fill="none">
+                  <circle cx="18" cy="18" r="18" fill="#232830" />
+                  <path
+                    d="M18 11C21.866 11 25 14.134 25 18C25 21.866 21.866 25 18 25C14.134 25 11 21.866 11 18C11 14.134 14.134 11 18 11ZM18 13.5C15.5147 13.5 13.5 15.5147 13.5 18C13.5 20.4853 15.5147 22.5 18 22.5C20.4853 22.5 22.5 20.4853 22.5 18C22.5 15.5147 20.4853 13.5 18 13.5Z"
+                    fill="#EA7600" />
+                  <circle cx="18" cy="18" r="2.5" fill="#00A8E8" />
+                  <path d="M22 10.5C25 13.5 26.5 15 28.5 15.5M21 9C24 10.5 26.5 12 28.5 12.5" stroke="#EA7600"
+                    stroke-width="2" stroke-linecap="round" />
+                </svg>
+                <span class="tool-name">Blender</span>
+              </div>
+            </li>
+            <li class="tool-item">
+              <div class="tool-brand">
+                <!-- Final Cut Pro Stylized Icon -->
+                <svg class="tool-icon" viewBox="0 0 36 36" fill="none">
+                  <circle cx="18" cy="18" r="18" fill="#1C1B1B" />
+                  <path
+                    d="M18 6C11.3726 6 6 11.3726 6 18C6 24.6274 11.3726 30 18 30C24.6274 30 30 24.6274 30 18C30 11.3726 24.6274 6 18 6Z"
+                    fill="#3A3A3C" />
+                  <path d="M18 6C24.6274 6 30 11.3726 30 18H18V6Z" fill="#FF2D55" />
+                  <path d="M30 18C30 24.6274 24.6274 30 18 30V18H30Z" fill="#FF9500" />
+                  <path d="M18 30C11.3726 30 6 24.6274 6 18H18V30Z" fill="#4CD964" />
+                  <path d="M6 18C6 11.3726 11.3726 6 18 6V18H6Z" fill="#5AC8FA" />
+                </svg>
+                <span class="tool-name">Final Cut Pro</span>
+              </div>
+            </li>
+          </ul>
+
+          <a href="#" class="view-tools-link">
+            <span>View All Tools</span>
+            <svg class="arrow-icon-small" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="7" y1="17" x2="17" y2="7"></line>
+              <polyline points="7 7 17 7 17 17"></polyline>
+            </svg>
+          </a>
+        </div>
+
+      </section>
+
+      <!-- FEATURED WORK SECTION (Row 4) -->
+      <section class="featured-work-section" id="work">
+        <h2 class="featured-work-heading">Featured Work</h2>
+
+        <div class="featured-work-layout">
+
+          <!-- Showcase Card (Left) -->
+          <div class="showcase-card" id="featured-showcase">
+            <!-- Content half -->
+            <div class="showcase-info" id="showcase-info-container">
+              <div>
+                <span class="project-tag" id="showcase-tag">BRAND IDENTITY</span>
+                <h3 class="project-title" id="showcase-title">Nüwa Skincare</h3>
+                <p class="project-desc" id="showcase-desc">A complete brand identity for a premium skincare line rooted
+                  in purity and self-care.</p>
+              </div>
+              <a href="#" class="btn-outline-project" id="showcase-link">
+                <span>View Project</span>
+                <svg class="arrow-icon-small" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="7" y1="17" x2="17" y2="7"></line>
+                  <polyline points="7 7 17 7 17 17"></polyline>
+                </svg>
+              </a>
+            </div>
+            <!-- Image half -->
+            <div class="showcase-image-wrapper">
+              <img src="/assets/skincare_dropper_bottle.png" alt="Featured project" class="showcase-img"
+                id="showcase-image" />
+            </div>
+          </div>
+
+          <!-- Project Selector List (Right) -->
+          <div class="project-selector-list">
+            <div class="selector-item active" data-project-idx="0">
+              <div class="selector-left">
+                <div class="selector-thumb">
+                  <img src="/assets/skincare_dropper_bottle.png" alt="Thumbnail" />
+                </div>
+                <div class="selector-meta">
+                  <h4 class="selector-title">Nüwa Skincare</h4>
+                  <span class="selector-category">Brand Identity</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="selector-item" data-project-idx="1">
+              <div class="selector-left">
+                <div class="selector-thumb">
+                  <img src="/assets/echo_app_thumbnail.png" alt="Thumbnail" />
+                </div>
+                <div class="selector-meta">
+                  <h4 class="selector-title">Echo App</h4>
+                  <span class="selector-category">UI/UX Design</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="selector-item" data-project-idx="2">
+              <div class="selector-left">
+                <div class="selector-thumb">
+                  <img src="/assets/vibrant_minds_thumbnail.png" alt="Thumbnail" />
+                </div>
+                <div class="selector-meta">
+                  <h4 class="selector-title">Vibrant Minds</h4>
+                  <span class="selector-category">Illustration</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="selector-item" data-project-idx="3">
+              <div class="selector-left">
+                <div class="selector-thumb">
+                  <img src="/assets/momentum_thumbnail.png" alt="Thumbnail" />
+                </div>
+                <div class="selector-meta">
+                  <h4 class="selector-title">Momentum</h4>
+                  <span class="selector-category">Motion Graphics</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOOTER CTA & LINKS SECTION (Row 5) -->
+      <section class="footer-cta-section" id="contact">
+        <div class="cta-left-content">
+          <h2 class="cta-heading">
+            Let's create<br>
+            <span class="highlight-serif-green">something great<br>together.</span>
+          </h2>
+          <div class="brush-underline">
+            <svg viewBox="0 0 300 20" fill="none">
+              <path d="M10 10C80 8 160 5 290 12C200 13 110 15 30 18C100 17 210 16 280 13" stroke="#D4F82A"
+                stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </div>
+
+          <div class="contact-details">
+            <div class="detail-group">
+              <span class="detail-label">Get in touch</span>
+              <div class="email-wrapper">
+                <a href="mailto:hello@sarath.design" class="email-link">hello@sarath.design</a>
+                <div class="circle-arrow-btn-small">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="7" y1="17" x2="17" y2="7"></line>
+                    <polyline points="7 7 17 7 17 17"></polyline>
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            <div class="detail-group">
+              <span class="detail-label">Follow me</span>
+              <div class="social-links">
+                <a href="#" class="social-link">Instagram</a>
+                <a href="#" class="social-link">LinkedIn</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="cta-ribbon-card">
+          <img src="/assets/purple_silk_wave.png" alt="Purple waves" class="ribbon-card-bg" />
+          <div class="ribbon-card-overlay"></div>
+          <div class="ribbon-card-content">
+            <p class="ribbon-text-large">Open to exciting projects and collaborations.</p>
+            <p class="ribbon-text-small">Let's build something meaningful.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-left">
+        <div class="logo">SARATH.</div>
+      </div>
+      <div class="footer-center">
+        <p class="copyright">© 2026 Sarath. All rights reserved.</p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Script Hook -->
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
